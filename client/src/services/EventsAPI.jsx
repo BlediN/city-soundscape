@@ -1,4 +1,5 @@
-const API_BASE = '/api/events'
+const API_ROOT = import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, '') || ''
+const API_BASE = `${API_ROOT}/api/events`
 
 const handleResponse = async (response) => {
 	if (!response.ok) {
@@ -11,7 +12,7 @@ const handleResponse = async (response) => {
 const EventsAPI = {
 	getAllEvents: async () => handleResponse(await fetch(API_BASE)),
 	getEventsById: async (id) => handleResponse(await fetch(`${API_BASE}/${id}`)),
-	getEventsByLocation: async (slug) => handleResponse(await fetch(`/api/locations/${slug}/events`))
+	getEventsByLocation: async (slug) => handleResponse(await fetch(`${API_ROOT}/api/locations/${slug}/events`))
 }
 
 export default EventsAPI

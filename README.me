@@ -49,6 +49,28 @@ GIF created with ...  GIF tool here
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
+## Deploying to GitHub Pages
+
+1. Make sure your API is deployed publicly (Render/Railway/etc.).
+2. Create `client/.env.gh-pages` and set:
+
+  ```
+  VITE_API_BASE_URL=https://your-api-domain.com
+  ```
+
+3. From the project root, run:
+
+  ```
+  npm install
+  npm run deploy
+  ```
+
+4. In GitHub repository settings, set Pages source to the `gh-pages` branch.
+
+Notes:
+- The app uses the repository base path `/city-soundscape/` when built in `gh-pages` mode.
+- The app automatically uses hash routing on `github.io` so deep links work on refresh.
+
 ## License
 
 Copyright [2026] [Bledar Ndoni]

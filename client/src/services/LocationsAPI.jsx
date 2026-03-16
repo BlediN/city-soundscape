@@ -1,4 +1,5 @@
-const API_BASE = '/api/locations'
+const API_ROOT = import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, '') || ''
+const API_BASE = `${API_ROOT}/api/locations`
 
 const handleResponse = async (response) => {
 	if (!response.ok) {

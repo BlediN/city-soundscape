@@ -6,6 +6,8 @@
     "start": "cd server && node server.js",
     "start:prod": "cd server && NODE_ENV=production node server.js",
     "build": "cd client && vite build",
+    "build:gh-pages": "cd client && vite build --mode gh-pages",
+    "deploy": "npm run build:gh-pages && gh-pages -d client/dist",
     "db:init": "cd server && node config/reset.js",
     "db:reset": "npm run db:init"
   },
@@ -25,6 +27,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^6.3.0",
     "vite": "^4.2.0"
   }
 }
