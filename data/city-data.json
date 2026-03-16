@@ -1,0 +1,122 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Pulse Basement",
+      "slug": "pulse-basement",
+      "address": "1213 Electric Ave",
+      "city": "Neo Harbor",
+      "state": "CA",
+      "zip": "94107",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80",
+      "description": "A low-ceiling concrete room known for late techno sets and immersive light rigs."
+    },
+    {
+      "id": 2,
+      "name": "Rivet Warehouse",
+      "slug": "rivet-warehouse",
+      "address": "88 Foundry St",
+      "city": "Neo Harbor",
+      "state": "CA",
+      "zip": "94110",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80",
+      "description": "An industrial warehouse space for high-energy drum & bass, bass house, and visual art pop-ups."
+    },
+    {
+      "id": 3,
+      "name": "Neon Yard",
+      "slug": "neon-yard",
+      "address": "407 Rail Line Rd",
+      "city": "Neo Harbor",
+      "state": "CA",
+      "zip": "94103",
+      "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=900&q=80",
+      "description": "Open-air courtyard where collectives host genre-blending nights and community dance sessions."
+    },
+    {
+      "id": 4,
+      "name": "Signal Loft",
+      "slug": "signal-loft",
+      "address": "22 Meridian Pl",
+      "city": "Neo Harbor",
+      "state": "CA",
+      "zip": "94109",
+      "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80",
+      "description": "A small rooftop loft for intimate DJ showcases, synth jams, and after-hours listening sessions."
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "location_id": 1,
+      "title": "Subsurface Frequencies",
+      "description": "Deep and hypnotic techno all night with local selectors.",
+      "genre": "Techno",
+      "image": "https://images.unsplash.com/photo-1571266028243-d220c9d3f662?auto=format&fit=crop&w=900&q=80",
+      "event_date": "2026-03-28T03:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "location_id": 1,
+      "title": "Echo Chamber",
+      "description": "Dub techno and ambient transitions in a surround-sound setup.",
+      "genre": "Dub Techno",
+      "image": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=900&q=80",
+      "event_date": "2026-04-11T04:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "location_id": 2,
+      "title": "Steel & Bass",
+      "description": "A warehouse takeover featuring fast breaks and heavy low-end.",
+      "genre": "Drum & Bass",
+      "image": "https://images.unsplash.com/photo-1429514513361-8fa32282fd5f?auto=format&fit=crop&w=900&q=80",
+      "event_date": "2026-03-22T05:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "location_id": 2,
+      "title": "Night Shift Circuit",
+      "description": "Industrial club textures, modular synth live set, and VJ visuals.",
+      "genre": "Industrial",
+      "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=900&q=80",
+      "event_date": "2026-04-19T05:30:00.000Z"
+    },
+    {
+      "id": 5,
+      "location_id": 3,
+      "title": "Glowline Social",
+      "description": "Open-format dance session with community DJs and pop-up vendors.",
+      "genre": "House",
+      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80",
+      "event_date": "2026-03-20T02:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "location_id": 3,
+      "title": "Midnight Transit",
+      "description": "UK garage and leftfield club selections under neon installations.",
+      "genre": "UK Garage",
+      "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=900&q=80",
+      "event_date": "2026-04-02T03:30:00.000Z"
+    },
+    {
+      "id": 7,
+      "location_id": 4,
+      "title": "Loft Sessions: Analog Night",
+      "description": "Live hardware jams, downtempo grooves, and vinyl-only closing set.",
+      "genre": "Electronica",
+      "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=900&q=80",
+      "event_date": "2026-03-30T01:30:00.000Z"
+    },
+    {
+      "id": 8,
+      "location_id": 4,
+      "title": "Skylight Afterhours",
+      "description": "A melodic sunrise set with chill house and progressive cuts.",
+      "genre": "Melodic House",
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80",
+      "event_date": "2026-04-26T09:00:00.000Z"
+    }
+  ]
+}
